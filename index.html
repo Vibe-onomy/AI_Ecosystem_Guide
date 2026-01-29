@@ -173,6 +173,24 @@
             font-size: 0.85rem;
             color: #1976d2;
             font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .tool-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tool-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
 
         .start-here {
@@ -320,6 +338,16 @@
             border-bottom: none;
         }
 
+        .result-tools a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .result-tools a:hover {
+            text-decoration: underline;
+        }
+
         .restart-btn {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -400,30 +428,35 @@
                         <h3><span class="emoji">✨</span> Gemini</h3>
                         <p>Research, writing, brainstorming - your AI assistant</p>
                         <div class="start-if">Start here if: You need fast answers & content drafts</div>
+                        <a href="https://gemini.google.com" target="_blank" class="tool-link">Try Gemini →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">📚</span> NotebookLM</h3>
                         <p>Deep research, podcast creation from your documents</p>
                         <div class="start-if">Start here if: You have documents/PDFs to analyze</div>
+                        <a href="https://notebooklm.google.com" target="_blank" class="tool-link">Try NotebookLM →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">🛠️</span> Google AI Studio</h3>
                         <p>Custom AI apps, prototyping, experimentation</p>
                         <div class="start-if">Start here if: You want to build custom tools</div>
+                        <a href="https://aistudio.google.com" target="_blank" class="tool-link">Try AI Studio →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">🏢</span> Vertex AI</h3>
                         <p>Enterprise AI deployment at scale</p>
                         <div class="start-if">Start here if: You're building at enterprise scale</div>
+                        <a href="https://cloud.google.com/vertex-ai" target="_blank" class="tool-link">Learn More →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">📧</span> Workspace Extensions</h3>
                         <p>Gmail, Docs, Drive integration with AI</p>
                         <div class="start-if">Start here if: You live in Google Workspace</div>
+                        <a href="https://workspace.google.com/solutions/ai/" target="_blank" class="tool-link">Learn More →</a>
                     </div>
 
                     <div class="start-here">
@@ -446,36 +479,42 @@
                         <h3><span class="emoji">💼</span> Copilot (M365)</h3>
                         <p>Word, Excel, PowerPoint automation - AI in your Office</p>
                         <div class="start-if">Start here if: You use Microsoft Office daily</div>
+                        <a href="https://www.microsoft.com/microsoft-365/copilot" target="_blank" class="tool-link">Try Copilot →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">🤖</span> Copilot Studio</h3>
                         <p>Custom chatbots, workflows, business automation</p>
                         <div class="start-if">Start here if: You want business automation</div>
+                        <a href="https://www.microsoft.com/microsoft-copilot/copilot-studio" target="_blank" class="tool-link">Try Copilot Studio →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">☁️</span> Azure OpenAI</h3>
                         <p>Enterprise AI deployment with security</p>
                         <div class="start-if">Start here if: You need API access & security</div>
+                        <a href="https://azure.microsoft.com/products/ai-services/openai-service" target="_blank" class="tool-link">Learn More →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">🎨</span> Designer</h3>
                         <p>Visual content creation, graphics, presentations</p>
                         <div class="start-if">Start here if: You make graphics/presentations</div>
+                        <a href="https://designer.microsoft.com" target="_blank" class="tool-link">Try Designer →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">🔍</span> Bing Chat</h3>
                         <p>Web search + AI answers, current information</p>
                         <div class="start-if">Start here if: You need current information</div>
+                        <a href="https://www.bing.com/chat" target="_blank" class="tool-link">Try Bing Chat →</a>
                     </div>
 
                     <div class="tool-card">
                         <h3><span class="emoji">💻</span> GitHub Copilot</h3>
                         <p>Code generation, development assistance</p>
                         <div class="start-if">Start here if: You're a developer</div>
+                        <a href="https://github.com/features/copilot" target="_blank" class="tool-link">Try GitHub Copilot →</a>
                     </div>
 
                     <div class="start-here">
@@ -568,10 +607,10 @@
                     <div class="result-tools">
                         <h3>Your Starting Stack:</h3>
                         <ul>
-                            <li><strong>Gemini</strong> - Start here for writing & research (FREE)</li>
-                            <li><strong>NotebookLM</strong> - Upload documents for deep analysis (FREE)</li>
-                            <li><strong>Google Workspace Extensions</strong> - Integrate with your Gmail/Docs</li>
-                            <li><strong>AI Studio</strong> - Build custom tools when you're ready</li>
+                            <li><strong><a href="https://gemini.google.com" target="_blank">Gemini</a></strong> - Start here for writing & research (FREE)</li>
+                            <li><strong><a href="https://notebooklm.google.com" target="_blank">NotebookLM</a></strong> - Upload documents for deep analysis (FREE)</li>
+                            <li><strong><a href="https://workspace.google.com/solutions/ai/" target="_blank">Google Workspace Extensions</a></strong> - Integrate with your Gmail/Docs</li>
+                            <li><strong><a href="https://aistudio.google.com" target="_blank">AI Studio</a></strong> - Build custom tools when you're ready</li>
                         </ul>
                     </div>
                     <button class="restart-btn" onclick="restart()">Start Over</button>
@@ -587,10 +626,10 @@
                     <div class="result-tools">
                         <h3>Your Starting Stack:</h3>
                         <ul>
-                            <li><strong>Bing Chat</strong> - Start here for free AI search (FREE)</li>
-                            <li><strong>Copilot in M365</strong> - If you have Office license ($30/mo add-on)</li>
-                            <li><strong>Designer</strong> - Create professional graphics (FREE)</li>
-                            <li><strong>GitHub Copilot</strong> - If you code ($10/mo)</li>
+                            <li><strong><a href="https://www.bing.com/chat" target="_blank">Bing Chat</a></strong> - Start here for free AI search (FREE)</li>
+                            <li><strong><a href="https://www.microsoft.com/microsoft-365/copilot" target="_blank">Copilot in M365</a></strong> - If you have Office license ($30/mo add-on)</li>
+                            <li><strong><a href="https://designer.microsoft.com" target="_blank">Designer</a></strong> - Create professional graphics (FREE)</li>
+                            <li><strong><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot</a></strong> - If you code ($10/mo)</li>
                         </ul>
                     </div>
                     <button class="restart-btn" onclick="restart()">Start Over</button>
@@ -606,10 +645,10 @@
                     <div class="result-tools">
                         <h3>Your Starting Stack:</h3>
                         <ul>
-                            <li><strong>ChatGPT</strong> - Universal starting point (FREE)</li>
-                            <li><strong>Gemini</strong> - Google's answer, great for research (FREE)</li>
-                            <li><strong>Bing Chat</strong> - Microsoft's answer, web-integrated (FREE)</li>
-                            <li><strong>Perplexity</strong> - Independent research tool (FREE)</li>
+                            <li><strong><a href="https://chatgpt.com" target="_blank">ChatGPT</a></strong> - Universal starting point (FREE)</li>
+                            <li><strong><a href="https://gemini.google.com" target="_blank">Gemini</a></strong> - Google's answer, great for research (FREE)</li>
+                            <li><strong><a href="https://www.bing.com/chat" target="_blank">Bing Chat</a></strong> - Microsoft's answer, web-integrated (FREE)</li>
+                            <li><strong><a href="https://www.perplexity.ai" target="_blank">Perplexity</a></strong> - Independent research tool (FREE)</li>
                         </ul>
                     </div>
                     <button class="restart-btn" onclick="restart()">Start Over</button>
@@ -623,23 +662,18 @@
         let currentQuestion = 1;
 
         function showTab(tabName) {
-            // Hide all tabs
             document.querySelectorAll('.tab-content').forEach(tab => {
                 tab.classList.remove('active');
             });
             
-            // Remove active from all buttons
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
             
-            // Show selected tab
             document.getElementById(tabName).classList.add('active');
             
-            // Add active to clicked button
             event.target.classList.add('active');
 
-            // Reset decision tree if switching away
             if (tabName === 'decision') {
                 restart();
             }
@@ -649,51 +683,35 @@
             answers[`q${questionNum}`] = value;
             currentQuestion++;
 
-            // Update progress
             const progress = (questionNum / 3) * 100;
             document.getElementById('progress').style.width = progress + '%';
 
-            // Hide current question
             document.querySelector(`.question-card[data-question="${questionNum}"]`).classList.remove('active');
 
             if (questionNum < 3) {
-                // Show next question
                 document.querySelector(`.question-card[data-question="${questionNum + 1}"]`).classList.add('active');
             } else {
-                // Show result
                 showResult();
             }
         }
 
         function showResult() {
-            // Complete progress bar
             document.getElementById('progress').style.width = '100%';
 
-            // Determine result based on answers
             let result = 'neutral';
 
-            // Strong signals for Google
             if (answers.q1 === 'google') {
                 result = 'google';
-            }
-            // Strong signals for Microsoft
-            else if (answers.q1 === 'microsoft') {
+            } else if (answers.q1 === 'microsoft') {
                 result = 'microsoft';
-            }
-            // Creative work leans Google
-            else if (answers.q2 === 'creative' && answers.q3 === 'free') {
+            } else if (answers.q2 === 'creative' && answers.q3 === 'free') {
                 result = 'google';
-            }
-            // Business productivity leans Microsoft
-            else if (answers.q2 === 'productivity' && answers.q3 !== 'free') {
+            } else if (answers.q2 === 'productivity' && answers.q3 !== 'free') {
                 result = 'microsoft';
-            }
-            // Coding leans Microsoft (GitHub Copilot)
-            else if (answers.q2 === 'code') {
+            } else if (answers.q2 === 'code') {
                 result = 'microsoft';
             }
 
-            // Show result
             document.getElementById(`result-${result}`).classList.add('active');
         }
 
@@ -701,15 +719,12 @@
             answers = {};
             currentQuestion = 1;
             
-            // Reset progress
             document.getElementById('progress').style.width = '0%';
             
-            // Hide all questions and results
             document.querySelectorAll('.question-card, .result-card').forEach(card => {
                 card.classList.remove('active');
             });
             
-            // Show first question
             document.querySelector('.question-card[data-question="1"]').classList.add('active');
         }
     </script>
