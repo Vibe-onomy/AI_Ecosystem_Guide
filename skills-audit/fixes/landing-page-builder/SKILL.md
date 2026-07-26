@@ -1,4 +1,5 @@
 ---
+# ⚠️ SUPERSEDED (July 2026): merged into the Doser stack's Landing Page Designer + CRO Skill. Guardrails ported via STACK-INTEGRATION.md. Kept for history — do not install.
 name: landing-page-builder
 description: Turn any offer into a complete, deployable landing page — copy, structure, and build — in Mikke's Vibe Align voice. Use for lead magnet opt-in pages, webinar registration pages, sales pages, and service pages for Vibe Align consulting, SUDSync, or CADENCE. Trigger on "build a landing page," "make an opt-in page," "sales page for [offer]," "registration page," "squeeze page," "turn this offer into a page," or when perfect-webinar-builder needs its registration page built. Produces a draft page and preview deploy only — never a production deploy without explicit approval.
 ---

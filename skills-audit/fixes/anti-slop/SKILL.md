@@ -1,4 +1,5 @@
 ---
+# ⚠️ SUPERSEDED (July 2026): replaced by the personalized stack anti-slop.md (has Mikke's banned words merged). Kept for history — do not install.
 name: anti-slop
 description: Detects and removes AI-generated fluff from content and rewrites it in Mikke's Vibe Align voice — direct, witty, authority-forward. Use when reviewing drafts, cleaning AI output, or doing a final voice pass before anything is published under the Vibe Align brand. Flags each issue with the rule it violates, then rewrites. Trigger on "de-slop this," "clean this up," "does this sound like AI," "voice check," or any final review of content longer than a sentence.
 ---

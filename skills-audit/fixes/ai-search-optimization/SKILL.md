@@ -1,4 +1,5 @@
 ---
+# ⚠️ SUPERSEDED (July 2026): merged into the Doser stack's GEO AI Search Optimizer. BH query-mapping ported via STACK-INTEGRATION.md. Kept for history — do not install.
 name: ai-search-optimization
 description: Optimize vibealign.co content to be found and cited by AI assistants (ChatGPT, Claude, Perplexity, Gemini) — answer-engine optimization (AEO/GEO), distinct from classic Google SEO. Use when the user says "AI SEO," "optimize for AI search," "why doesn't ChatGPT recommend me," "get cited by AI," "answer engine optimization," "GEO," or when publishing/reviewing any page or post that buyers might find by asking an AI a question. Complements (does not replace) the searchfit-seo plugin, which owns classic Google SEO.
 ---

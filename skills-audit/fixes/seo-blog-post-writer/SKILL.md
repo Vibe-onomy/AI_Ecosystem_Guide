@@ -1,4 +1,5 @@
 ---
+# ⚠️ SUPERSEDED (July 2026): replaced by the stack's SEO Blog Post Writer.md once personalized per STACK-INTEGRATION.md. Kept for history — do not install.
 name: seo-blog-post-writer
 description: Repurpose YouTube videos and long-form source material into SEO-optimized blog posts for vibealign.co in Mikke's Vibe Align voice. Uses Blotato to pull video transcripts, then drafts publish-ready articles with proper heading hierarchy, keyword placement, and engagement hooks. Use when the user says "write a blog post," "blog post from video," "repurpose this video," "SEO article," or provides a YouTube URL and wants an article. Do NOT use for social posts (use linkedin-hook-writer or the social content plugin) or for Vibe Align column installments (use dear-vibe-align). Output is a DRAFT — this skill never publishes.
 ---

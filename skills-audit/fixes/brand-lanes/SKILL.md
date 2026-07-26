@@ -37,7 +37,13 @@ to NOT post something.
 | Full social posts / platform-native content | `mikke-social-content-v3` plugin | |
 | Persuasion-heavy copy (offers, sales pages) | `vibe-persuasion` plugin | |
 | Webinar scripts and funnel assets | `perfect-webinar-builder` | |
-| ANY final draft, before it goes anywhere | `anti-slop` | Mandatory last pass. |
+| SEO articles, listicles, comparisons, topical clusters | Doser stack SEO writers (Claude Code) | Production factory, not chat. |
+| Email newsletters, sequences, sales emails | Doser stack email skills (Claude Code) | Assessment is the default email offer. |
+| Short-form video scripts and captions | Doser stack `Short Form Video Script Creator` | |
+| Landing pages, web pages, CRO passes | Doser stack `Landing Page Designer` + `CRO Skill` | Guardrails block applies. |
+| Lead magnets | Doser stack `Lead Magnet Creator` | |
+| Carousels and social graphics | Doser stack `Social Media Graphics Generator` (runs the Vibe Align carousel system) | |
+| ANY final draft, before it goes anywhere | `anti-slop` (stack version) | Mandatory last pass. |
 
 Two rules about the table:
 - Announce the hand-off ("Routing to dear-vibe-align") so it's auditable.
