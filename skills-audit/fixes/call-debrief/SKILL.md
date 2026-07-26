@@ -20,7 +20,7 @@ was with and the call type: discovery / sales / delivery / check-in.
    date) or the matching product pipeline: stage, products discussed
    (SUDSync / Vibe Align consulting / Vixta Voice), budget signals,
    decision process, named stakeholders. Update Debrief Status on the
-   call's row in the sales analysis database when done.
+   call's row in Sales Call Intelligence when done.
 2. **Action items** — theirs and Mikke's, each with an owner and a date.
    Flag anything Mikke promised on the call; those are commitments, not
    suggestions (Leila Hormozi rule: deliver what you promise).
