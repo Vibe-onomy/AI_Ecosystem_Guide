@@ -48,7 +48,31 @@ included) → Proof (results, credentials — only what's true) → Objections
 - Forms: placeholder action URL clearly marked `TODO` — never wire a live
   endpoint without the user naming it.
 
-## Step 4 — Ship (guardrailed)
+## Step 4 — CRO review (run on every page before it ships)
+
+Score the draft against this checklist and fix what fails:
+
+1. **5-second test:** does the above-the-fold view answer "what is this,
+   who is it for, what do I do next" without scrolling?
+2. **One CTA, repeated:** a single action, restated after each major
+   section. No competing buttons, no "learn more" next to "book a call."
+3. **Friction audit:** every form field must justify itself — name + email
+   for opt-ins, nothing more. Each extra field costs conversions.
+4. **Specificity beats adjectives:** swap every "transform/unlock/empower"
+   for a number, a timeframe, or a named deliverable.
+5. **Objection placement:** the top objection gets answered *before* the
+   first CTA, not buried in the FAQ.
+6. **Proof proximity:** a proof block (case-study-builder output) sits
+   directly beside the claim it supports, not in a separate section.
+7. **Mobile thumb test:** CTA reachable and readable on a phone; no
+   horizontal scroll; text ≥16px.
+8. **Speed sanity:** single-file page, compressed images, no external
+   font/script dependencies that block render.
+
+Report the score (pass/fix per item) with the draft — don't silently fix
+copy the user has already approved; flag it.
+
+## Step 5 — Ship (guardrailed)
 
 - Deploy as a **Vercel preview** and return the link.
 - Production deploys, custom domains, or connecting real form endpoints /
