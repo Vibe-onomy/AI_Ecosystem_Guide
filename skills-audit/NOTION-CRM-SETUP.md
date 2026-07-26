@@ -1,67 +1,64 @@
-# Client Tracking Setup — paste this prompt into a claude.ai chat
+# Client Tracking — extend what exists (revised after reviewing Vixta Hub)
 
-Copy everything between the lines into a regular claude.ai chat (with the
-Notion connector on) and approve the prompts it shows you.
+Original version of this doc proposed two new databases. Withdrawn: the
+**👥 Vixta Clients** database (in Vixta Hub) already does the revenue side
+better than the generic proposal — Status pipeline (Lead → Onboarding →
+Active → Paused → Churned), Plan tiers (Catch/Core/Clear/Complete), Setup
+Fee, Monthly MRR, Maintenance + Compliance Fee, Annual Revenue and Tax
+Year Revenue formulas, GHL subaccount, portal relations, and a Discovery
+Call page template. Do not duplicate it.
 
----
-
-Please create two new Notion databases for my client tracking system, then
-link them. Create them under my workspace (I'll move them where I want
-after).
-
-DATABASE 1 — "Clients — Vibe Align CRM"
-Description: System of record for live customers and active prospects
-across Vibe Align consulting, SUDSync, and Vixta Voice. Updated after
-every call.
-Properties:
-- Name (title)
-- Organization (text)
-- Stage (select): prospect / discovery / proposal sent / active client /
-  delivery / renewal / closed lost / past client
-- Products (multi-select): SUDSync / Vibe Align Consulting / Vixta Voice
-- Primary Contact (text)
-- Contact Email (email)
-- State (text) — note: this determines call-recording consent rules
-- Recording Consent (select): on file / verbal only / not yet
-- Proof Consent (select): named OK / de-identified only / none
-- Next Step (text)
-- Next Step Date (date)
-- Fee / MRR (number, dollar format)
-- Source (select): referral / content / outreach / webinar / other
-- Notes (text)
-- Created (created time)
-- Last Touched (last edited time)
-
-DATABASE 2 — "Calls & Transcripts"
-Description: Every recorded client/sales call. Fed by call recordings;
-processed by the call-debrief skill into CRM updates, follow-ups, VOC
-quotes, and proof candidates.
-Properties:
-- Name (title) — format: YYYY-MM-DD Client — call type
-- Client (relation to "Clients — Vibe Align CRM", two-way, synced name
-  "Calls")
-- Call Type (select): discovery / sales / delivery / check-in / other
-- Date (date)
-- Consent Announced (checkbox)
-- Contains PHI (select): no / flagged — quarantine
-- Debrief Status (select): raw / debriefed / follow-up sent
-- Transcript (text or file — paste transcript or attach export)
-- Key Quotes (text) — VOC candidates from call-debrief
-- Proof Candidate (checkbox)
-- Action Items (text)
-
-After creating both, add a board view on the Clients database grouped by
-Stage, and a table view on Calls & Transcripts sorted by Date descending.
+What it's missing is everything the call-recording workflow needs. Paste
+the prompt below into a claude.ai chat (Notion connector on) to close the
+gaps.
 
 ---
 
-## After it's created
+Please update my Notion database "👥 Vixta Clients" (inside the Vixta Hub
+page) by ADDING these properties. Do not change or remove any existing
+properties, formulas, or templates.
 
-1. Point the call-debrief skill at these: when debriefing, tell Claude
-   "update the CRM block for [client] in my Clients database" and it can
-   write the row (in claude.ai chats where Notion edits are approved).
-2. Your existing "saves" database entries labeled social proof: relate or
-   migrate the client-specific ones to the matching client row so proof,
-   consent status, and the source call live together.
-3. Add a row to the Codi Skills & Agents Directory for call-debrief once
-   the skill is installed.
+1. "State" (text) — client's US state; determines call-recording consent
+   rules
+2. "Recording Consent" (select): on file / verbal only / not yet
+3. "Proof Consent" (select): named OK / de-identified only / none
+4. "Next Step" (text)
+5. "Next Step Date" (date)
+6. "Source" (select): referral / content / outreach / webinar / other
+7. "Calls" (relation) — link to my sales analysis database that holds my
+   sales and discovery call transcripts [I'll point you at it — ask me
+   for the link if you can't find it by searching "sales analysis"]
+
+Then, in my sales analysis / call transcripts database, ADD these
+properties if they don't already exist (again, change nothing that's
+already there):
+1. "Client" (relation back to 👥 Vixta Clients, two-way with the "Calls"
+   property above)
+2. "Call Type" (select): discovery / sales / delivery / check-in / other
+3. "Consent Announced" (checkbox)
+4. "Debrief Status" (select): raw / debriefed / follow-up sent
+
+---
+
+## Why these specific fields
+
+- **State + Recording Consent:** MN is one-party consent, but prospects in
+  CA/WA/FL etc. are all-party states. The universal fix is announcing the
+  recording every time; the field keeps the record.
+- **Proof Consent:** feeds case-study-builder's NAMED / DE-IDENTIFIED /
+  DRAFT-ONLY gate directly from the client row.
+- **Next Step + Date:** the one thing every CRM needs and most Notion
+  client lists lack — makes "stalled deals" a filterable view.
+- **Calls relation + Debrief Status:** transcripts stop floating free;
+  "raw" calls become a to-process queue for the call-debrief skill.
+
+## Notes
+
+- SUDSync and Vibe Align consulting clients: replicate this pattern when
+  those pipelines have live customers — same fields, per-product hub, or
+  promote Vixta Clients to a shared Clients DB with a "Product"
+  multi-select. Decide when it's real, not before.
+- Mikke confirmed sales/discovery calls contain no PHI. The call-debrief
+  skill's PHI firewall stays in place anyway — it matters for *delivery*
+  calls with active BH clients, where a client may describe a patient
+  situation mid-call.

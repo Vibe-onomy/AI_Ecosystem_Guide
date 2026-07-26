@@ -15,10 +15,12 @@ was with and the call type: discovery / sales / delivery / check-in.
 
 ## Output — always in this order
 
-1. **CRM update block** — ready to paste into the client's row/page:
-   stage, products discussed (SUDSync / Vibe Align consulting / Vixta
-   Voice), budget signals, decision process, named stakeholders, next step
-   with date.
+1. **CRM update block** — formatted for the 👥 Vixta Clients database in
+   Vixta Hub (Status, Plan, Setup Fee / Monthly MRR signals, Next Step +
+   date) or the matching product pipeline: stage, products discussed
+   (SUDSync / Vibe Align consulting / Vixta Voice), budget signals,
+   decision process, named stakeholders. Update Debrief Status on the
+   call's row in the sales analysis database when done.
 2. **Action items** — theirs and Mikke's, each with an owner and a date.
    Flag anything Mikke promised on the call; those are commitments, not
    suggestions (Leila Hormozi rule: deliver what you promise).
