@@ -31,9 +31,13 @@ a single headline.
   buttons.
 - **Voice:** Vibe Align — direct, witty, authority-forward, business-therapy
   framing (diagnose the real problem, prescribe the fix). Credibility comes
-  from 14 years inside behavioral health programs — never from compliance
-  claims or guarantees. Do not use "Compliance-ready" or imply Mikke is
-  responsible for a buyer's compliance.
+  from Mikke's 14 years inside behavioral health, including compliance and
+  audit work — that expertise is fair game in bios and "who builds this"
+  sections. But never attach compliance to the products as a promise: no
+  "Compliance-ready," no "keeps you compliant," nothing implying the
+  product or Mikke carries liability for the buyer's compliance. Products
+  get factual statements only (HIPAA-compliant, BAA included, tracks
+  regulatory updates).
 - Every draft passes through the anti-slop rules before it's shown.
 
 Section order for long-form: Hook (their problem, their words) → Diagnosis

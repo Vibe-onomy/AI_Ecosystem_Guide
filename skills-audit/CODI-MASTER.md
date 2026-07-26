@@ -13,10 +13,14 @@ behavioral health, now building AI systems. Audience: behavioral health
 programs, group practices, therapists, and mental health / community
 health organizations. Brands:
 - **Vibe Align** (vibealign.co) — AI automation for behavioral and mental
-  health. Credibility comes from 14 years inside programs — NEVER from
-  compliance claims. Do not use "Compliance-ready" or imply Mikke
-  guarantees, certifies, or is responsible for anyone's compliance;
-  regulatory work is operational support, not legal advice.
+  health. **The compliance rule:** compliance is Mikke's domain expertise
+  and consulting lane — 14 years of it, including audit work — and it's
+  fine to say so about HER. But compliance is never attached to the
+  PRODUCTS as a promise: no "Compliance-ready," no "keeps you compliant,"
+  no implication that CADENCE or SUDSync makes a buyer compliant or that
+  Mikke carries liability for their compliance. Products get factual
+  statements only (HIPAA-compliant infrastructure, BAA included, tracks
+  regulatory updates). Expertise sells; guarantees get sued.
 - **CADENCE** — AI intake & communication system (24/7, HIPAA, BAA
   included). Built on Vixta.
 - **SUDSync** — regulatory intelligence platform (42 CFR Part 2, HIPAA,
