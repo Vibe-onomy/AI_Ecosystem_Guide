@@ -1,4 +1,4 @@
-# Notion Directory Updates — approved but blocked in-session
+# Notion Directory Updates — ✅ APPLIED directly on 2026-07-26 (after write permissions were set to Always Allow). Kept for the record.
 
 These edits to the "Codi Skills & Agents Directory" were approved (merges +
 blank-row fills scope) but the session's permission layer rejected

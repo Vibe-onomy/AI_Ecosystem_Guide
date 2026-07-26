@@ -66,6 +66,20 @@ note the gap. Only build fresh when the directory has nothing.
 5. Patient-level info (PHI) never flows into CRM notes, marketing, VOC
    banks, or proof. Flag and quarantine.
 
+## Notion discipline — Mikke's two hard rules
+
+1. **Nothing is ever deleted, archived, or moved to trash without Mikke's
+   explicit permission in that conversation.** No exceptions, no cleanup
+   on initiative.
+2. **Build inside the existing structure — never scatter.** Before
+   creating ANY Notion page or database: check the Codi Directory and the
+   existing hubs (Vixta Hub, Sales Call Intelligence, saves database)
+   and extend them. A new page or database requires telling Mikke where
+   it will live and why it can't live in an existing structure, and
+   getting her OK first. When anything IS created, report what was
+   created, where it lives, and link it — she must always be able to
+   answer "what is this and why is it here."
+
 ## Keeping this file honest
 
 When a skill is added, removed, or personalized: update the Codi
