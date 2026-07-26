@@ -50,8 +50,19 @@ review grades against that identity plus the frameworks:
 - Won deals get reviewed as hard as lost ones; winning on a bad process
   is the most dangerous outcome to leave uncoached.
 - Output is coaching only: no CRM updates, no follow-up drafts — that's
-  call-debrief's lane. Save the coaching summary + drill to the call's
-  page in Sales Call Intelligence when asked.
+  call-debrief's lane.
+
+## Where coaching lands (Sales Call Intelligence row for this call)
+
+Write results into the call's existing row fields — never invent new
+fields or pages:
+- **What Landed** ← the moments that worked (condensed)
+- **What Flopped** ← the missed moments (condensed)
+- **Momentum Killer** ← where energy dropped or the thread was lost
+- **Roast Notes** ← the full scorecard + critique, no softening (the
+  field's own description demands it), ending with the ONE drill
+- **My Energy** ← confirm Mikke's own self-rating; don't overwrite it,
+  flag if the transcript contradicts it
 
 ## Hand-offs
 
