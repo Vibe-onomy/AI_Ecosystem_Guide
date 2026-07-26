@@ -10,7 +10,7 @@ Scope per Mikke's decisions (July 2026):
 - ✅ Apply merges and blank-row fills (below)
 - ❌ Do NOT archive the duplicate rows yet
 - ❌ Do NOT add the 27 plugin/built-in rows yet
-- Vixta Voice proposals are handled under the Vibe Align Consulting
+- CADENCE (formerly 'Vixta Voice') proposals are handled under the Vibe Align Consulting
   proposal type.
 
 ---
@@ -61,7 +61,7 @@ Row: https://app.notion.com/p/35dfb706eac1815091cde074d0263c0d
 > value equation), Donald Miller (customer is hero), Chris Voss (clear ask),
 > Leila Hormozi (standards, deliver what you promise).
 >
-> **Vixta Voice:** setup proposals are handled under the Vibe Align
+> **CADENCE (formerly 'Vixta Voice'):** setup proposals are handled under the Vibe Align
 > Consulting proposal type (per Mikke, July 2026).
 
 ## 5. compliance-check (May 11 row) — append to page body

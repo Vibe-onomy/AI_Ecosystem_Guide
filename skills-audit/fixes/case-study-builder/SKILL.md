@@ -1,6 +1,6 @@
 ---
 name: case-study-builder
-description: Collect, verify, and format client proof — testimonials, case studies, and results snippets — for Vibe Align, SUDSync, and Vixta Voice. Use when the user says "write a case study," "format this testimonial," "turn this client win into proof," "I need social proof for this page," or after a successful client engagement wraps. Also use to generate the interview questions that collect proof in the first place. De-identifies behavioral health clients by default; nothing publishes without documented client consent.
+description: Collect, verify, and format client proof — testimonials, case studies, and results snippets — for Vibe Align, SUDSync, and CADENCE. Use when the user says "write a case study," "format this testimonial," "turn this client win into proof," "I need social proof for this page," or after a successful client engagement wraps. Also use to generate the interview questions that collect proof in the first place. De-identifies behavioral health clients by default; nothing publishes without documented client consent.
 ---
 
 # Case Study Builder — the proof supply chain

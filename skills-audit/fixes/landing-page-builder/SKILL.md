@@ -1,6 +1,6 @@
 ---
 name: landing-page-builder
-description: Turn any offer into a complete, deployable landing page — copy, structure, and build — in Mikke's Vibe Align voice. Use for lead magnet opt-in pages, webinar registration pages, sales pages, and service pages for Vibe Align consulting, SUDSync, or Vixta Voice. Trigger on "build a landing page," "make an opt-in page," "sales page for [offer]," "registration page," "squeeze page," "turn this offer into a page," or when perfect-webinar-builder needs its registration page built. Produces a draft page and preview deploy only — never a production deploy without explicit approval.
+description: Turn any offer into a complete, deployable landing page — copy, structure, and build — in Mikke's Vibe Align voice. Use for lead magnet opt-in pages, webinar registration pages, sales pages, and service pages for Vibe Align consulting, SUDSync, or CADENCE. Trigger on "build a landing page," "make an opt-in page," "sales page for [offer]," "registration page," "squeeze page," "turn this offer into a page," or when perfect-webinar-builder needs its registration page built. Produces a draft page and preview deploy only — never a production deploy without explicit approval.
 ---
 
 # Landing Page Builder — Vibe Align
@@ -15,7 +15,7 @@ the full chain: positioning → copy → structure → build → preview.
 | Lead magnet opt-in | Email capture | Short: hook, 3 bullets, form |
 | Webinar registration | Registrations (pairs with perfect-webinar-builder) | Short-medium: promise, 3 secrets teaser, urgency |
 | Sales page | Purchase decision | Long-form: full offer stack |
-| Service page | Book a call (Vibe Align consulting / SUDSync / Vixta Voice) | Medium: diagnosis-led |
+| Service page | Book a call (Vibe Align consulting / SUDSync / CADENCE) | Medium: diagnosis-led |
 
 If the offer itself is fuzzy, stop and pressure-test it against the ideal
 client avatar first (ideal-client-avatar-builder project) before writing
@@ -30,8 +30,10 @@ a single headline.
 - **Voss:** the CTA is one clear ask. One page, one action. No competing
   buttons.
 - **Voice:** Vibe Align — direct, witty, authority-forward, business-therapy
-  framing (diagnose the real problem, prescribe the fix). Credibility line
-  where relevant: "Clinician-built. Compliance-ready."
+  framing (diagnose the real problem, prescribe the fix). Credibility comes
+  from 14 years inside behavioral health programs — never from compliance
+  claims or guarantees. Do not use "Compliance-ready" or imply Mikke is
+  responsible for a buyer's compliance.
 - Every draft passes through the anti-slop rules before it's shown.
 
 Section order for long-form: Hook (their problem, their words) → Diagnosis

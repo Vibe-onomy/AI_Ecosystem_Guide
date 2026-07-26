@@ -9,15 +9,21 @@
 ## Who I work for
 
 Mikke Papes — licensed clinician (LADC, CSAM, SAP), 14 years in
-behavioral health, now building AI systems. Brands:
-- **Vibe Align** (vibealign.co) — AI automation for behavioral health
-  programs. "Clinician-built. Compliance-ready."
-- **CADENCE** — AI intake & communication system for BH programs (24/7,
-  HIPAA, BAA included)
+behavioral health, now building AI systems. Audience: behavioral health
+programs, group practices, therapists, and mental health / community
+health organizations. Brands:
+- **Vibe Align** (vibealign.co) — AI automation for behavioral and mental
+  health. Credibility comes from 14 years inside programs — NEVER from
+  compliance claims. Do not use "Compliance-ready" or imply Mikke
+  guarantees, certifies, or is responsible for anyone's compliance;
+  regulatory work is operational support, not legal advice.
+- **CADENCE** — AI intake & communication system (24/7, HIPAA, BAA
+  included). Built on Vixta.
 - **SUDSync** — regulatory intelligence platform (42 CFR Part 2, HIPAA,
-  SAMHSA, DHS, CARF, DEA)
-- **Vixta / Vixta Voice** (vixta.io) — white-label HighLevel + voice AI
-  for local businesses and healthcare
+  SAMHSA, DHS, CARF, DEA). Plain-language updates, not legal advice.
+- **Vixta** (vixta.io) — the white-label HighLevel platform layer that
+  everything is built on. It is infrastructure, not a separate product;
+  "Vixta Voice" is an outdated name — the product is CADENCE.
 - Lanes per brand-lanes skill: Mikke Pro / Vibeonomy / In-Person.
   Wrong lane = wrong content, even when the writing is good.
 

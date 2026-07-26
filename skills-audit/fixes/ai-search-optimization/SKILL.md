@@ -8,7 +8,7 @@ description: Optimize vibealign.co content to be found and cited by AI assistant
 Mikke's buyers increasingly ask an AI assistant, not Google: "how do I get
 ready for a DHS 245G audit," "AI automation for a small therapy practice,"
 "is there software for 254B compliance tracking." This skill makes Vibe
-Align, SUDSync, and Vixta Voice the answer those assistants cite.
+Align, SUDSync, and CADENCE the answer those assistants cite.
 
 ## The core shift
 
@@ -21,7 +21,7 @@ unambiguous about who it's from and what it covers.
 List the 5–10 questions a target buyer would actually ask an AI, in their
 words (pull from customer-voice-research language banks when available).
 Group them: compliance questions → SUDSync, automation questions → Vibe
-Align consulting, intake/voice questions → Vixta Voice.
+Align consulting, intake/voice questions → CADENCE.
 
 ## Step 2 — Content rules for citability
 

@@ -18,7 +18,7 @@ was with and the call type: discovery / sales / delivery / check-in.
 1. **CRM update block** — formatted for the 👥 Vixta Clients database in
    Vixta Hub (Status, Plan, Setup Fee / Monthly MRR signals, Next Step +
    date) or the matching product pipeline: stage, products discussed
-   (SUDSync / Vibe Align consulting / Vixta Voice), budget signals,
+   (SUDSync / Vibe Align consulting / CADENCE), budget signals,
    decision process, named stakeholders. Update Debrief Status on the
    call's row in Sales Call Intelligence when done.
 2. **Action items** — theirs and Mikke's, each with an owner and a date.
