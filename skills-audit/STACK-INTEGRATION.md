@@ -66,7 +66,7 @@ commands to remember.
 | SEO articles, listicles, comparisons, content strategy | Doser stack SEO skills |
 | Email: newsletters, sequences, sales emails, CTAs | Doser stack email skills |
 | Video scripts, captions, YouTube/podcast packaging | Doser stack video/YouTube skills |
-| Landing pages, web design, CRO | Doser stack (Landing Page Designer + Web Designer + CRO Skill, with guardrails) |
+| Landing pages, web design, CRO | Copy + conversion architecture: Doser stack (Landing Page Designer, with guardrails). Visual build + design audit: Hallmark (~/.claude/skills/hallmark, from nutlope/hallmark; fork kept at vibe-onomy/hallmark). Conversion audit: CRO Skill. Flow: Designer writes → Hallmark builds → CRO audits conversion → hallmark audit audits design. |
 | Lead magnets | Doser stack Lead Magnet Creator |
 | Design: brand kit, logos, graphics, carousels, infographics | Doser stack design skills (carousels use the Vibe Align system) |
 | Sales calls: prep, debrief, coaching | Mikke's set: sales-call-prep / call-debrief / sales-call-coach |
