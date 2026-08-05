@@ -27,6 +27,19 @@ Claude to regenerate one). Pass condition: every em dash reported as its
 own line item, and the rewrite's proof line is a [PLACEHOLDER: real
 metric + consent status] or cut — never an invented number.
 
+## Paste 4 — package ghl-ai-builder for claude.ai
+
+```
+Package the ghl-ai-builder skill (SKILL.md is in the fix pack at
+skills-audit/fixes/ghl-ai-builder/ in the AI_Ecosystem_Guide repo, or I
+will paste it) as an uploadable claude.ai skill zip, same as anti-slop.
+Give me the zip path.
+```
+
+Then upload at claude.ai → Settings → Capabilities → Skills. This one
+lives at the ACCOUNT layer on purpose: it drives Claude in Chrome, and
+browser control happens from chats/desktop, not the Claude Code terminal.
+
 ## Then tell audit-session Claude "done" so it can verify the directory.
 
 ---
