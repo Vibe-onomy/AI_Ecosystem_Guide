@@ -69,6 +69,7 @@ commands to remember.
 | Landing pages, web design, CRO | Copy + conversion architecture: Doser stack (Landing Page Designer, with guardrails). Visual build + design audit: Hallmark (~/.claude/skills/hallmark, from nutlope/hallmark; fork kept at vibe-onomy/hallmark). Conversion audit: CRO Skill. Flow: Designer writes → Hallmark builds → CRO audits conversion → hallmark audit audits design. |
 | Lead magnets | Doser stack Lead Magnet Creator |
 | Design: brand kit, logos, graphics, carousels, infographics | Doser stack design skills (carousels use the Vibe Align system) |
+| Screenshot mockups, product shots, animated GIF/WebM demos | ShotOpt (browser tool, shotopt.pages.dev). Feeds carousels, proof blocks, landing pages, LinkedIn posts. Never screenshot PHI. |
 | Sales calls: prep, debrief, coaching | Mikke's set: sales-call-prep / call-debrief / sales-call-coach |
 | Proof, VOC, competitive intel, compliance checks | Mikke's set |
 | Voice enforcement | stack anti-slop (personalized) + AI Critic as final gate |
