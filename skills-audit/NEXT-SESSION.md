@@ -40,6 +40,26 @@ Then upload at claude.ai → Settings → Capabilities → Skills. This one
 lives at the ACCOUNT layer on purpose: it drives Claude in Chrome, and
 browser control happens from chats/desktop, not the Claude Code terminal.
 
+## Paste 5 — install b-roll-finder (only once you're editing talking-head video)
+
+```
+Install the b-roll-finder skill: git clone https://github.com/louisedesadeleer/b-roll-finder.git
+into my user folder, add a /find-broll pointer to ~/.claude/CLAUDE.md, and install
+its tools for WINDOWS (not the macOS/Homebrew steps): yt-dlp, ffmpeg, imagemagick via
+winget. Skip mlx-whisper (Apple-only). For transcripts, use my Tella transcripts or
+the timestamps I provide; only install openai-whisper if I ask.
+
+Then add these to the Guardrails in my fork of TASTE.md, as permanent overrides:
+1. Never use yt-dlp --cookies-from-browser or my logged-in browser. Public sources only.
+2. No clips from other creators' YouTube channels. Allowed sources: my own footage and
+   screens, licensed stock (Pexels, Mixkit, Coverr), official government and
+   association sources, screenshots of public headlines, and my own motion graphics.
+3. Never show patient information, client names, or identifiable program details
+   without written consent on file.
+Run the onboarding questions with me before the first use; do not reuse Louise's
+taste profile.
+```
+
 ## Then tell audit-session Claude "done" so it can verify the directory.
 
 ---
